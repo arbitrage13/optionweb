@@ -1,6 +1,6 @@
 export type AssetType = 'Futures' | 'Options'
 
-export interface Asset{
+export interface Options{
     type : AssetType;
     name : String;
     underlying? : string; 
